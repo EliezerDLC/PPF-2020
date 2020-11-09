@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profesores</title>
+    <script src="https://kit.fontawesome.com/e96f1cacd9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <form class="form-create" method="POST" action="registrar.php">
+        <h1>Registro de profesores</h1>        
+        <div class="contenedor">
+            
+            <div class="input-contenedor">
+                <h2>Tipo de cuenta</h2>
+                <i class="fas fa-user-tag icon"></i>
+                <select name="tipo" class="lista">
+                    <option value="Ad">Administrador</option>
+                    <option value="Pro">Profesor</option>
+                    <option value="Al">Alumno</option>
+                </select>
+                <br>
+                <br>
+            </div>            
+
+            <div class="input-contenedor">
+                <i class="fas fa-user-tag icon"></i>
+                <input type="password" name="contra" placeholder="contraseña">
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fas fa-user-tag icon"></i>
+                <input type="text" name="nombres" placeholder="Nombre">
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fas fa-fingerprint icon"></i>
+                <input type="text" name="apellidos" placeholder="Apellido">
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fas fa-fingerprint icon"></i>
+                <input type="text"name="correos" placeholder="Correo electronico">
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fas fa-fingerprint icon"></i>
+                <input type="text" name="telefonos" placeholder="telefono">
+            </div>
+
+            <div class="input-contenedor">
+                <h2>Fecha de nacimiento</h2>
+                <i class="fas fa-fingerprint icon"></i>
+                <input type="date" name="nacimientos" placeholder="Fecha de nacimiento">
+            </div>
+
+            <input type="submit" value="Registrar Usuario" class="button" name="iniciar">
+            
+            <p><a class="linkfail" href="profesores.html">Cancelar registro</a></p>
+        </div>        
+    </form>        
+</body>
+</html>

@@ -1,0 +1,476 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(img/back1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+
+.espacio{
+    margin-top: 10px;
+    width: 100%;
+    padding: 60px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+
+
+
+.info{
+    margin-top: 10px;
+    width: 100%;
+    padding: 60px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+
+@media(min-width:768px){
+    .info{        
+        margin: right;
+        width: 90%;
+    }
+}
+
+.ok{
+    margin-top: 10px;
+    width: 90%;
+    padding: 30px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    margin-left: 5%;
+    text-align: center;
+    color: yellowgreen;
+}
+
+.bad{
+    margin-top: 10px;
+    width: 90%;
+    padding: 30px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    margin-left: 5%;
+    text-align: center;
+    color: red;
+}
+
+.encabezado{
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+
+.form-completo{
+    background: #fff;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.form-create{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+
+h2{
+    text-align: left;
+    color: #1a2537;
+    font-size: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"] {
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+
+.input-contenedor{
+    margin-bottom: 40px;
+    border: 2px solid #aaa;
+    border-radius: 5px;
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: cadetblue;
+}
+
+.not{
+    border: none;
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 15px 40px;
+    border-radius: 5px;    
+    text-decoration: none;   
+    text-align: center;
+}
+
+.ttabla{
+    border: none;
+    color: white;
+    font-size: 11px;
+    background: #1a2537;
+    padding: 10px 80px;
+    border-radius: 5px;    
+    text-decoration: none;   
+}
+
+.ctabla{
+    border: none;
+    color: black;
+    font-size: 20px;
+    background: white;
+    padding: 12px 60px;
+    border-radius: 5px; 
+    font-size: small;     
+}
+
+
+.btconf{
+    border: none;
+    color: white;
+    font-size: 20px;
+    background: cadetblue;
+    padding: 8px 12px;
+    border-radius: 5px;    
+    text-decoration: none;   
+}
+
+.btmod{
+    border: none;
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 8px 12px;
+    border-radius: 5px;    
+    text-decoration: none;   
+}
+
+.btmod:hover{
+    background: cadetblue;
+}
+
+
+
+.buttonlink{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 15px 173px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;   
+}
+
+.buttotro{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 15px 123px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;      
+    margin-left: 5%;    
+}
+
+.lista{
+    border: none;
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 10px 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;      
+    margin-left: 5%;    
+}
+
+.buttotro:hover{
+    background: cadetblue;
+}
+
+.buttotro2{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 15px 120px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;      
+    margin-left: 10%; 
+}
+.buttotro2:hover{
+    background: cadetblue;
+}
+
+.buttonlink:hover{
+    background: cadetblue;
+}
+
+.buttonopcion{
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 15px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;    
+}
+
+.buttonmenu{
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 15px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;    
+    margin-left: 30%;
+}
+
+.buttonopcion:hover{
+    background: cadetblue;
+}
+
+
+p{
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
+}
+
+.link:hover{
+    color: cadetblue;
+}
+
+.linkfail{
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+}
+
+.linkfail:hover{
+    color: green;
+}
+
+.linktw{
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+.linktw:hover{
+    color: cadetblue;
+}
+
+.name{
+    text-decoration: none;
+    color: #c5cae9;
+    font-weight: 300;
+    font-size: 10px;
+}
+
+@media(min-width:768px){
+    .form-completo{
+        margin: auto;
+        width: 95%;
+        margin-top: 50px;
+    }
+}
+
+@media(min-width:768px){
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 200px;
+    }
+}
+
+@media(min-width:768px){
+    .espacio{        
+        margin: right;
+        width: 50%;
+    }
+}
+
+@media(min-width:768px){
+    .encabezado{        
+        margin: right;
+        width: 90%;
+    }
+}
+
+@media(min-width:768px){
+    .form-create{
+        margin: auto;
+        width: 500px;
+        margin-top: 50px;
+    }
+}
+
+/*Panel lateral*/
+.menu{
+    /*Solapa*/
+    width: 40px;
+    height: 40px;
+    background: #1a2537;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 1px;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    transition: left 0.5s;
+}
+
+.checkbox:checked ~ .menu {
+    left: 260px;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.left-panel{
+    width: 260px;
+    height: 100%;
+    background: -webkit-linear-gradient(#1a2537, white, #213033);
+    /*safari*/
+    background: -o-linear-gradient(#1a2537, white, #213033);
+    /*Opera*/
+    background: linear-gradient(#1a2537,white, #213033);
+    /*Estandar*/
+    position: absolute;
+    top: 0;
+    left: -250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: left 0.5s;
+}
+
+.checkbox:checked ~ .left-panel{
+    left: 0;
+}
+
+.checkbox {
+    display: none;
+}
+
+/*Calendario*/
+
+.calendario{  
+    margin-top: 10px;
+    margin-left: 10px;     
+    width: 300px;
+    height: 360px;
+    background: white;
+    background-size: cover;
+    box-sizing: border-box;      
+}
+
+.calendario .img{
+    width: 100%;
+    height: 130px;
+    background: #000;
+    background: url(img/cal.jpg);
+    background-size: cover;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.calendario .img h2,
+.calendario .img h3{    
+    margin: 8px;
+    padding: 5px;
+    color: #fff;
+    margin-left: 60px;
+    text-shadow: 0 2px 2px 0;    
+}
+
+.calendario .fecha{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25px, 1fr));
+    grid-gap: 10px;
+}
+
+.calendario .fecha div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    color: #262626;
+}
+
+.calendario .fecha div.dia{
+    font-weight: 700;
+}
+
+.calendario .fecha div.dia:first-child,
+.calendario .fecha div.numero:nth-child(7n +1){
+    color: red;
+}
+
+.calendario .fecha div.numero.active{
+    background: #009688;
+    color: #fff;
+    cursor: pointer;
+}
