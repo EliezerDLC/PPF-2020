@@ -4,7 +4,7 @@ $usuario =  $_POST['usuario'];
 $clave = $_POST['clave'];
 
 //consulta para  validación de usuario
-$conex = mysqli_connect("https://github.com/EliezerDLC/bdppf.git","EliezerDLC","Darius9818","proyecto");
+$conex = mysqli_connect("localhost","root","","proyecto");
 $consulta="SELECT * FROM `usuarios` WHERE nombres='$usuario' and contraseña='$clave'";
 $resultado=mysqli_query($conex,$consulta);
 $filas=mysqli_num_rows($resultado);
